@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		12F992D81ABCEA853EB7CC6C /* XJAuthorTestCategoryKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XJAuthorTestCategoryKit.podspec; path = ../XJAuthorTestCategoryKit.podspec; sourceTree = "<group>"; };
+		12F992D81ABCEA853EB7CC6C /* XJAuthorTestCategoryKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XJAuthorTestCategoryKit.podspec; path = ../XJAuthorTestCategoryKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3E3D3927622EF660EB481D1C /* Pods_XJAuthorTestCategoryKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XJAuthorTestCategoryKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FC40ADC42643CEE96F63250 /* Pods-XJAuthorTestCategoryKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XJAuthorTestCategoryKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-XJAuthorTestCategoryKit_Tests/Pods-XJAuthorTestCategoryKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* XJAuthorTestCategoryKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XJAuthorTestCategoryKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,9 +60,9 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7D344FD42537DF7C939AB6B4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7D344FD42537DF7C939AB6B4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8A8D00D5B274D38231D1A919 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8A8D00D5B274D38231D1A919 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		8C31231A84813B28D89E95A1 /* Pods-XJAuthorTestCategoryKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XJAuthorTestCategoryKit_Example.release.xcconfig"; path = "Target Support Files/Pods-XJAuthorTestCategoryKit_Example/Pods-XJAuthorTestCategoryKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D30F8E34341ACFDEC6AA621B /* Pods-XJAuthorTestCategoryKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XJAuthorTestCategoryKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-XJAuthorTestCategoryKit_Example/Pods-XJAuthorTestCategoryKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D6DE2113085ABF74B00EF0A9 /* Pods-XJAuthorTestCategoryKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XJAuthorTestCategoryKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-XJAuthorTestCategoryKit_Tests/Pods-XJAuthorTestCategoryKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -103,7 +103,6 @@
 				5FC40ADC42643CEE96F63250 /* Pods-XJAuthorTestCategoryKit_Tests.debug.xcconfig */,
 				D6DE2113085ABF74B00EF0A9 /* Pods-XJAuthorTestCategoryKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -324,10 +323,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-XJAuthorTestCategoryKit_Example/Pods-XJAuthorTestCategoryKit_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework",
 				"${BUILT_PRODUCTS_DIR}/XJAuthorTestCategoryKit/XJAuthorTestCategoryKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTMediator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XJAuthorTestCategoryKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
