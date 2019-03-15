@@ -1,6 +1,6 @@
 PODS:
   - CTMediator (25)
-  - XJAuthorTestCategoryKit (1.0.0):
+  - XJAuthorTestCategoryKit (1.0.1):
     - CTMediator
 
 DEPENDENCIES:
@@ -16,7 +16,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
-  XJAuthorTestCategoryKit: 0c575e52e9cf2122e8c71e214932f5be50df75d8
+  XJAuthorTestCategoryKit: 637185587f8137fa56c17d17a5d91a71e4d5edf3
 
 PODFILE CHECKSUM: 4252c5dab67be0cf5770cbf88f13930093f71157
 
